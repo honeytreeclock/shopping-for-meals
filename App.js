@@ -1,11 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import CatergoriesScreen from './screens/CatergoriesScreen';
+import FiltersScreen from './screens/FiltersScreen';
+import CatergoryMealsScreen from './screens/CatergoryMealsScreen';
+import MealDetailScreen from './screens/MealDetailScreen';
+import FavourtiesScreen from './screens/FavourtiesScreen';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <CatergoriesScreen></CatergoriesScreen>
+      <FiltersScreen></FiltersScreen>
+      <CatergoryMealsScreen></CatergoryMealsScreen>
+      <MealDetailScreen></MealDetailScreen>
+      <FavourtiesScreen></FavourtiesScreen>
+      <Text></Text>
       <StatusBar style="auto" />
     </View>
   );
