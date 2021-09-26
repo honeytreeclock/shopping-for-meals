@@ -7,7 +7,7 @@ const CatergoryMealsScreen = ({ navigation }) => {
             <Text>This is the meal catergory screen</Text>
             <Button
                 title="Go to the meal detail catergory screen"
-                onPress={() => navigation.navigate('MealDetails')}
+                onPress={() => navigation.push('MealDetails')}
             />
         </View>
     );
